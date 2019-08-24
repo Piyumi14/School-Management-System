@@ -16,14 +16,12 @@ namespace Login
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void eventBtn_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            EventDashboard ed1 = new EventDashboard();
+            ed1.ShowDialog();
         }
 
-        private void button7_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
